@@ -14,6 +14,7 @@
 | `u`            | undo 
 | `<ctrl>+r`     | redo 
 | `<space>cd`    | open NeoVim explorer
+| `<space>cs`    | open cheatsheet 
 
 
 ## Plugin Cheats
