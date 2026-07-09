@@ -10,7 +10,8 @@
 | `<shift>+v`    | select a line (add y + p to copy paste)
 | `v+<up><down>` | visual mode then you can highlight multiple lines and yank them
 | `dw`           | delete a word 
-| `d$`           | delete all words ahead of cursor 
+| `d$`           | delete all words ahead of cursor
+| `gc`           | comment line(s) 
 | `u`            | undo 
 | `<ctrl>+r`     | redo 
 | `<space>cd`    | open NeoVim explorer
