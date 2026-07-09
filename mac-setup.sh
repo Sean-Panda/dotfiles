@@ -10,7 +10,13 @@ brew install neovim \
              fd \
              tree-sitter \
              lua-language-server \
-             llvm
+             llvm \
+             hashicorp/tap/terraform-ls
+
+npm install -g yaml-language-server
+
+brew install dotnet
+dotnet tool install -g csharp-ls
 
 brew install --cask font-jetbrains-mono-nerd-font
 

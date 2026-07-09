@@ -3,7 +3,7 @@ return {
     lazy = false,
     build = ':TSUpdate',
     config = function()
-        require('nvim-treesitter').install({ 'lua', 'cpp', 'vim', 'c', 'vimdoc' })
+        require('nvim-treesitter').install({ 'lua', 'cpp', 'vim', 'c', 'vimdoc', 'terraform', 'yaml', 'c_sharp' })
 
         vim.api.nvim_create_autocmd('FileType', {
             pattern = '*',
