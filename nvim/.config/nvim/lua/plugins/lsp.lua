@@ -3,6 +3,9 @@ return {
     config = function()
         vim.lsp.enable("clangd")
         vim.lsp.enable("lua_ls")
+        vim.lsp.enable("terraformls")
+        vim.lsp.enable("yamlls")
+        vim.lsp.enable("csharp_ls")
         vim.lsp.config("lua_ls", {
             settings = {
                 Lua = {
