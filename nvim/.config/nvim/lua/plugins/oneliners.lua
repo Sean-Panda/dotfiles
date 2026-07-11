@@ -1,5 +1,9 @@
 return {
     {
-	'tpope/vim-fugitive',
+        'tpope/vim-fugitive',
+    },
+    {
+        'nvim-tree/nvim-web-devicons',
+        opts = {},
     },
 }
