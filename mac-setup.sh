@@ -18,5 +18,6 @@ npm install -g yaml-language-server
 brew install dotnet
 dotnet tool install -g csharp-ls
 
-brew install --cask font-jetbrains-mono-nerd-font
+brew install --cask font-jetbrains-mono-nerd-font \
+             kitty
 
