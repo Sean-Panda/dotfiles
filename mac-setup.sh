@@ -13,6 +13,7 @@ brew install neovim \
              llvm \
              hashicorp/tap/terraform-ls
 
+brew install node
 npm install -g yaml-language-server
 
 brew install dotnet
