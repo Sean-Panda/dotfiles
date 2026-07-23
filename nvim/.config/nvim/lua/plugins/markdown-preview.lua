@@ -7,7 +7,7 @@ return {
       -- vim.fn["mkdp#util#install"]() 
     -- end,
 
-    build = "cd app & ./install.sh",
+    build = "cd app && ./install.sh",
 
     init = function()
       vim.g.mkdp_filetypes = { "markdown" }
