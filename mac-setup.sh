@@ -8,7 +8,7 @@ brew install neovim \
              stow \
              ripgrep \
              fd \
-             tree-sitter \
+             tree-sitter-cli \
              lua-language-server \
              llvm \
              hashicorp/tap/terraform-ls
